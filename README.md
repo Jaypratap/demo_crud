@@ -1,16 +1,15 @@
 # demo_crud
 This is the assignments for task-1 and task-3
 There are two urls.py file
-
 one in CRUD and one in otp
 
-API End point
+API End point:
 
-for generate otp: method=['POST']
+For generate otp: method=['POST']
 http://127.0.0.1:8000/otp/generate/
-for verify otp: method=['POST']
+For verify otp: method=['POST']
 http://127.0.0.1:8000/otp/verify/
-for register: method=['POST']
+For register: method=['POST']
 http://127.0.0.1:8000/otp/register/
 {
     "first_name": "jay",
@@ -23,10 +22,10 @@ http://127.0.0.1:8000/otp/register/
 
 }
 
-for register final: method=['PUT']
+For register final: method=['PUT']
 http://127.0.0.1:8000/registerfinal
 
-for update usertype
+For update usertype
 http://127.0.0.1:8000/updatetype/
 
 
