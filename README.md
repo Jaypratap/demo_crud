@@ -7,8 +7,10 @@ API End point:
 
 For generate otp: method=['POST']
 http://127.0.0.1:8000/otp/generate/
+
 For verify otp: method=['POST']
 http://127.0.0.1:8000/otp/verify/
+
 For register: method=['POST']
 http://127.0.0.1:8000/otp/register/
 {
@@ -25,7 +27,7 @@ http://127.0.0.1:8000/otp/register/
 For register final: method=['PUT']
 http://127.0.0.1:8000/registerfinal
 
-For update usertype
+For update usertype: method=['PUT']
 http://127.0.0.1:8000/updatetype/
 
 
